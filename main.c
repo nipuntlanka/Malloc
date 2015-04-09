@@ -1,0 +1,41 @@
+#include "mymalloc.h"
+
+void main()
+{
+	MyMalloc(1000);
+	MyMalloc(1000);
+	MyMalloc(1000);
+	MyFree(2018);
+	MyMalloc(2000);
+	MyMalloc(1000);
+	MyFree(2018);
+	MyMalloc(2000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+	MyMalloc(1000);
+		MyMalloc(1000);
+		MyFree(9081);
+	MyMalloc(1000);
+	MyMalloc(1000);
+	MyFree(17135);
+	MyMalloc(1000);
+	MyMalloc(1000);
+}
